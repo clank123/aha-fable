@@ -1,0 +1,6 @@
+interface:
+  display_name: "Aha Fable"
+  short_description: "Turn notes into fables that reveal hidden principles."
+  default_prompt: "Use $aha-fable to turn my recent notes into a fable, reveal the hidden principle, and end with one action-guiding question."
+policy:
+  allow_implicit_invocation: true
