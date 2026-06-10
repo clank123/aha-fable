@@ -4,6 +4,23 @@
 
 它不是总结工具，也不是鸡汤生成器。它的目标是让一个高阶判断通过故事被看见，再用一句反问逼近行动。
 
+## 安装
+
+推荐安装真实运行目录：
+
+```text
+https://github.com/clank123/aha-fable/tree/main/skill/aha-fable
+```
+
+在 Codex 里可以直接说：
+
+```text
+请从这个 GitHub 路径安装并使用 aha-fable：
+https://github.com/clank123/aha-fable/tree/main/skill/aha-fable
+```
+
+仓库根目录包含 README、产品说明和传播稿。为了降低误装成本，根目录也提供了一个 `SKILL.md` 入口，但推荐路径仍然是 `skill/aha-fable`，那里才是完整运行时 skill。
+
 ## 来源与改造
 
 Aha Fable 不是从零发明的。
@@ -42,7 +59,7 @@ Aha Fable 把一个概念变成四段输出：
 
 ## 快速使用
 
-把 `skill/aha-fable` 复制到你的 Codex skills 目录，然后在对话中这样说：
+安装后，在对话中这样说：
 
 ```text
 使用 aha-fable，读我最近这几条笔记，找一个第一性原理层的盲点。
@@ -68,6 +85,7 @@ Aha Fable 把一个概念变成四段输出：
 
 ```text
 aha-fable/
+├── SKILL.md                  # 根目录安装入口，指向真实运行时 skill
 ├── README.md
 ├── docs/
 │   └── product-spec.md
