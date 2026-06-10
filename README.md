@@ -4,6 +4,12 @@
 
 它不是总结工具，也不是鸡汤生成器。它的目标是让一个高阶判断通过故事被看见，再用一句反问逼近行动。
 
+## 30 秒演示
+
+看这个脱敏示例：[30-Second Demo](examples/30-second-demo.md)。
+
+它展示了 Aha Fable 的核心差异：不是先给一个概念再写故事，而是先从一段真实困惑里诊断出隐藏原则，再把它转成寓言、行动和反问。
+
 ## 安装
 
 推荐安装真实运行目录：
@@ -89,6 +95,8 @@ aha-fable/
 ├── README.md
 ├── docs/
 │   └── product-spec.md
+├── examples/
+│   └── 30-second-demo.md
 ├── content/
 │   ├── wechat-draft.md
 │   └── short-video-script.md

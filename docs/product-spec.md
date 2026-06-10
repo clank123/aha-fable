@@ -144,9 +144,13 @@ Aha Fable 增加了四个约束：
 
 ## 安装方式
 
-将 `skill/aha-fable` 复制到你的 Codex skills 目录。
+推荐安装真实运行目录：
 
-示例：
+```text
+https://github.com/clank123/aha-fable/tree/main/skill/aha-fable
+```
+
+如果手动安装，也可以将 `skill/aha-fable` 复制到你的 Codex skills 目录：
 
 ```bash
 cp -R skill/aha-fable ~/.codex/skills/aha-fable
@@ -167,6 +171,8 @@ cp -R skill/aha-fable ~/.codex/skills/aha-fable
 - 分析 AI 对话必须基于用户明确授权提供的内容或摘要；不得默认读取用户历史对话。
 
 ## 最小案例
+
+更完整的脱敏演示见：[30-Second Demo](../examples/30-second-demo.md)。
 
 输入：
 
